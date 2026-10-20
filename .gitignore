@@ -1,0 +1,36 @@
+# Python virtual environment
+
+.venv/
+
+# Python cache
+
+**pycache**/
+*.py[cod]
+
+# Environment variables and secrets
+
+.env
+.env.*
+
+# Keep an example environment file if needed
+
+!.env.example
+
+# Local databases
+
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated reports and temporary output
+
+reports/
+output/
+*.log
+
+# Editor and operating-system files
+
+.vscode/
+.DS_Store
+Thumbs.db
